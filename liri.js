@@ -2,7 +2,6 @@
 
 var keys = require("./keys.js");
 
-// var keysList = client.twitterKeys;
 
 var Twitter = require('twitter');
  
@@ -81,7 +80,6 @@ spotify.search({ type: 'track', query: 'dancing in the moonlight' }, function(er
         return;
     }
  
-    // Do something with 'data' 
 });
 
 
